@@ -51,10 +51,7 @@ function clock(){
     document.getElementById('minute').innerHTML = ":" + minutes;
     document.getElementById('second').innerHTML = ":" + seconds;
 }
-if(twelve === false){
-    clearInterval(idVar);
-}
-var idVar = setInterval(clock, 1000);
+let idVar = setInterval(clock, 1000);
 
 }
 function clock24(){
@@ -89,7 +86,7 @@ function clock24(){
         document.getElementById('second').innerHTML = ":" + seconds;
 
     }
-    var idVar= setInterval(clock,1000);
+    let idVar= setInterval(clock,1000);
 
 }
 console.log("hello");
