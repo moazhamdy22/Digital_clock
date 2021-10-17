@@ -34,3 +34,15 @@ body{
     font-family:Orbitron;
     border-radius: 5px;
 }
+.twvOrTwf{
+    display: flex;
+    justify-content: center;
+}
+.twelve{
+    margin-right: 5px;
+    padding:3px;
+}
+.twentyfour{
+    margin-left:5px;
+    padding:3px;
+}
